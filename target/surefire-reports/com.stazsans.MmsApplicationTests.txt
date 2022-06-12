@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.stazsans.MmsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.788 s - in com.stazsans.MmsApplicationTests

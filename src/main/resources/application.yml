@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mms_db
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: shen5678
+#    多环境配置
+#  application:
+#    name: springboot-profile
+#    profiles:
+#      #指定执行环境
+#      active: @package.environment@
+  mvc:
+    static-path-pattern: /static/**
+  thymeleaf:
+    prefix: classpath:/templates
+    cache: false
